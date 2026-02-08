@@ -1,83 +1,83 @@
-# 會議紀錄
+# Meeting Minutes
 
-## 會議基本資訊
+## Meeting Information
 
-- **會議名稱**: [會議名稱]
-- **會議日期**: [YYYY-MM-DD]
-- **會議時間**: [HH:MM - HH:MM]
-- **會議地點**: [實體地點/線上會議連結]
-- **主持人**: [主持人姓名]
-- **記錄人**: [記錄人姓名]
+- **Meeting Title**: [Meeting Title]
+- **Date**: [YYYY-MM-DD]
+- **Time**: [HH:MM - HH:MM]
+- **Location**: [Physical Location / Online Meeting Link]
+- **Chairperson**: [Chairperson Name]
+- **Recorder**: [Recorder Name]
 
-## 與會人員
+## Attendees
 
-### 出席人員
-- [姓名] - [職稱/部門]
-- [姓名] - [職稱/部門]
+### Present
+- [Name] - [Title/Department]
+- [Name] - [Title/Department]
 
-### 請假人員
-- [姓名] - [職稱/部門]
+### On Leave
+- [Name] - [Title/Department]
 
-### 缺席人員
-- [姓名] - [職稱/部門]
+### Absent
+- [Name] - [Title/Department]
 
-## 會議議程
+## Agenda
 
-1. [議程項目一]
-2. [議程項目二]
-3. [議程項目三]
+1. [Agenda Item 1]
+2. [Agenda Item 2]
+3. [Agenda Item 3]
 
-## 會議內容摘要
+## Meeting Summary
 
-### [議題一: 標題]
+### [Topic 1: Title]
 
-**討論重點**:
-- [重點一]
-- [重點二]
-- [重點三]
+**Key Discussion Points**:
+- [Point 1]
+- [Point 2]
+- [Point 3]
 
-**決議事項**:
-- [決議一]
-- [決議二]
+**Decisions**:
+- [Decision 1]
+- [Decision 2]
 
-**待辦事項**:
-- [ ] [事項描述] - 負責人: [姓名] - 期限: [YYYY-MM-DD]
-- [ ] [事項描述] - 負責人: [姓名] - 期限: [YYYY-MM-DD]
-
----
-
-### [議題二: 標題]
-
-**討論重點**:
-- [重點一]
-- [重點二]
-
-**決議事項**:
-- [決議一]
-
-**待辦事項**:
-- [ ] [事項描述] - 負責人: [姓名] - 期限: [YYYY-MM-DD]
+**Action Items**:
+- [ ] [Task Description] - Owner: [Name] - Due: [YYYY-MM-DD]
+- [ ] [Task Description] - Owner: [Name] - Due: [YYYY-MM-DD]
 
 ---
 
-## 下次會議安排
+### [Topic 2: Title]
 
-- **預計日期**: [YYYY-MM-DD]
-- **預計時間**: [HH:MM]
-- **預計議題**:
-  - [議題一]
-  - [議題二]
+**Key Discussion Points**:
+- [Point 1]
+- [Point 2]
 
-## 附件
+**Decisions**:
+- [Decision 1]
 
-- [附件名稱連結]
-- [附件名稱連結]
-
-## 備註
-
-[其他需要記錄的事項]
+**Action Items**:
+- [ ] [Task Description] - Owner: [Name] - Due: [YYYY-MM-DD]
 
 ---
 
-**紀錄製作日期**: [YYYY-MM-DD]
-**紀錄版本**: v1.0
+## Next Meeting
+
+- **Scheduled Date**: [YYYY-MM-DD]
+- **Scheduled Time**: [HH:MM]
+- **Planned Topics**:
+  - [Topic 1]
+  - [Topic 2]
+
+## Attachments
+
+- [Attachment Name/Link]
+- [Attachment Name/Link]
+
+## Notes
+
+[Any additional notes or remarks]
+
+---
+
+**Record Created**: [YYYY-MM-DD]
+**Version**: v1.0

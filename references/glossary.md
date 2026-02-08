@@ -1,85 +1,85 @@
-# 會議詞彙表
+# Meeting Glossary
 
-此檔案用於儲存常見的專有名詞、人名、術語等，用於會議逐字稿的錯字校正。您可以隨時更新此檔案以提高校正準確度。
+This file stores common proper nouns, names, terminology, etc. for correcting transcription errors in meeting transcripts. You can update this file at any time to improve correction accuracy.
 
-## 專有名詞
+## Proper Nouns
 
-### 技術術語
-- AI (人工智慧) - 常見錯誤: 欸愛、A.I.
-- API (應用程式介面) - 常見錯誤: 欸批愛、A.P.I.
-- CI/CD (持續整合/持續部署) - 常見錯誤: 西愛西滴
-- DevOps - 常見錯誤: 得夫歐普斯、戴夫歐普斯
-- GitHub - 常見錯誤: 吉哈布、給特哈布
-- Kubernetes - 常見錯誤: K8s、庫伯奈特斯
-- Docker - 常見錯誤: 多客、道客
-- MySQL - 常見錯誤: 邁SQL、麥SQL
-- PostgreSQL - 常見錯誤: 波斯格SQL、破SQL
+### Technical Terms
+- AI (Artificial Intelligence) - Common errors: 欸愛、A.I.
+- API (Application Programming Interface) - Common errors: 欸批愛、A.P.I.
+- CI/CD (Continuous Integration / Continuous Deployment) - Common errors: 西愛西滴
+- DevOps - Common errors: 得夫歐普斯、戴夫歐普斯
+- GitHub - Common errors: 吉哈布、給特哈布
+- Kubernetes - Common errors: K8s、庫伯奈特斯
+- Docker - Common errors: 多客、道客
+- MySQL - Common errors: 邁SQL、麥SQL
+- PostgreSQL - Common errors: 波斯格SQL、破SQL
 
-### 商業術語
-- KPI (關鍵績效指標) - 常見錯誤: 開批愛
-- ROI (投資報酬率) - 常見錯誤: 阿歐愛
-- SOP (標準作業流程) - 常見錯誤: 艾斯歐批
-- MOU (合作備忘錄) - 常見錯誤: 艾母歐油
-- NDA (保密協議) - 常見錯誤: 恩滴A
-- OKR (目標與關鍵成果) - 常見錯誤: 歐開阿
-- B2B (企業對企業) - 常見錯誤: 必吐必
-- B2C (企業對消費者) - 常見錯誤: 必吐西
+### Business Terms
+- KPI (Key Performance Indicator) - Common errors: 開批愛
+- ROI (Return on Investment) - Common errors: 阿歐愛
+- SOP (Standard Operating Procedure) - Common errors: 艾斯歐批
+- MOU (Memorandum of Understanding) - Common errors: 艾母歐油
+- NDA (Non-Disclosure Agreement) - Common errors: 恩滴A
+- OKR (Objectives and Key Results) - Common errors: 歐開阿
+- B2B (Business-to-Business) - Common errors: 必吐必
+- B2C (Business-to-Consumer) - Common errors: 必吐西
 
-### 部門名稱
-- 研發部 - 常見錯誤: 研發不、言法部
-- 業務部 - 常見錯誤: 業務不
-- 行銷部 - 常見錯誤: 行銷不、行銷補
-- 人資部 - 常見錯誤: 人資不、人次部
-- 財務部 - 常見錯誤: 財務不
+### Department Names
+- R&D Department (研發部) - Common errors: 研發不、言法部
+- Sales Department (業務部) - Common errors: 業務不
+- Marketing Department (行銷部) - Common errors: 行銷不、行銷補
+- Human Resources Department (人資部) - Common errors: 人資不、人次部
+- Finance Department (財務部) - Common errors: 財務不
 
-## 常見人名
+## Common Names
 
-### 中文姓名範例 (請替換為實際使用的姓名)
-- 王小明 - 常見錯誤: 王曉明、網小明
-- 李小華 - 常見錯誤: 李小花、李曉華
-- 陳大同 - 常見錯誤: 陳大桶、陳達同
-- 張美玲 - 常見錯誤: 張美玲、章美玲
+### Chinese Name Examples (Replace with actual names used)
+- 王小明 - Common errors: 王曉明、網小明
+- 李小華 - Common errors: 李小花、李曉華
+- 陳大同 - Common errors: 陳大桶、陳達同
+- 張美玲 - Common errors: 張美玲、章美玲
 
-### 英文姓名範例 (請替換為實際使用的姓名)
-- John Smith - 常見錯誤: 張史密斯、強史密斯
-- Mary Johnson - 常見錯誤: 瑪莉強生、瑪麗詹森
-- David Chen - 常見錯誤: 大衛陳、戴維陳
+### English Name Examples (Replace with actual names used)
+- John Smith - Common errors: 張史密斯、強史密斯
+- Mary Johnson - Common errors: 瑪莉強生、瑪麗詹森
+- David Chen - Common errors: 大衛陳、戴維陳
 
-## 公司/組織名稱
+## Company / Organization Names
 
-- [貴公司名稱] - 常見錯誤: [列出可能的語音辨識錯誤]
-- [合作夥伴名稱] - 常見錯誤: [列出可能的語音辨識錯誤]
+- [Your Company Name] - Common errors: [List possible speech recognition errors]
+- [Partner Name] - Common errors: [List possible speech recognition errors]
 
-## 產品/專案名稱
+## Product / Project Names
 
-- [產品名稱A] - 常見錯誤: [列出可能的語音辨識錯誤]
-- [專案名稱B] - 常見錯誤: [列出可能的語音辨識錯誤]
+- [Product Name A] - Common errors: [List possible speech recognition errors]
+- [Project Name B] - Common errors: [List possible speech recognition errors]
 
-## 其他常用詞彙
+## Other Common Vocabulary
 
-### 會議相關
-- 議程 - 常見錯誤: 意成、疑程
-- 決議 - 常見錯誤: 決意、絕意
-- 共識 - 常見錯誤: 公式、攻勢
-- 追蹤 - 常見錯誤: 追中、最終
-- 待辦 - 常見錯誤: 帶辦、代辦
+### Meeting-Related
+- Agenda (議程) - Common errors: 意成、疑程
+- Resolution (決議) - Common errors: 決意、絕意
+- Consensus (共識) - Common errors: 公式、攻勢
+- Follow-up (追蹤) - Common errors: 追中、最終
+- To-do (待辦) - Common errors: 帶辦、代辦
 
-### 動詞
-- 執行 - 常見錯誤: 之行、支行
-- 完成 - 常見錯誤: 完程、玩成
-- 確認 - 常見錯誤: 確任、確人
-- 修正 - 常見錯誤: 休整、修整
+### Verbs
+- Execute (執行) - Common errors: 之行、支行
+- Complete (完成) - Common errors: 完程、玩成
+- Confirm (確認) - Common errors: 確任、確人
+- Revise (修正) - Common errors: 休整、修整
 
 ---
 
-## 使用說明
+## Usage Instructions
 
-1. **新增詞彙**: 當發現新的專有名詞或常見錯誤時，請直接編輯此檔案新增
-2. **分類管理**: 盡量將詞彙歸類到適當的類別中，便於維護
-3. **錯誤記錄**: 記錄常見的語音辨識錯誤，有助於提高自動校正的準確度
-4. **定期更新**: 建議定期檢視並更新此詞彙表，特別是新專案或新成員加入時
+1. **Add new terms**: When you discover new proper nouns or common errors, edit this file directly to add them
+2. **Categorize entries**: Try to classify terms into the appropriate categories for easier maintenance
+3. **Record errors**: Documenting common speech recognition errors helps improve automatic correction accuracy
+4. **Update regularly**: It is recommended to review and update this glossary periodically, especially when new projects or new members join
 
-## 更新記錄
+## Change Log
 
-- 2026-01-26: 初始建立詞彙表
-- [日期]: [更新內容描述]
+- 2026-01-26: Initial glossary creation
+- [Date]: [Description of update]
