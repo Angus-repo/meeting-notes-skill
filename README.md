@@ -15,6 +15,8 @@ A GitHub Copilot custom skill for transforming meeting transcripts into professi
 - **📋 Standardized Template Formatting** — Generates consistent, professional meeting minutes with structured sections
 - **🌐 Multilingual Templates** — Supports both English and Traditional Chinese (zh_TW) meeting templates
 - **📖 Editable Glossary** — Users can continuously update the terminology glossary to improve correction accuracy over time
+- **🧠 Glossary Auto-Learning** — Automatically suggests adding new correction patterns discovered during transcript processing to the glossary
+- **✅ Meeting Notes Validator** — Python script that validates meeting notes for completeness, formatting, and cross-reference consistency
 
 ## 📁 Project Structure
 
@@ -30,7 +32,8 @@ meeting-notes/
 ├── references/
 │   ├── glossary.md        # Terminology glossary (English)
 │   └── glossary_zh_TW.md  # Terminology glossary (繁體中文)
-└── scripts/               # (Reserved for future automation scripts)
+└── scripts/
+    └── validate_notes.py  # Meeting notes validation script
 ```
 
 ## 🚀 Getting Started
@@ -95,6 +98,58 @@ Both templates include sections for:
 - Discussion summaries with decisions and action items
 - Next meeting arrangements
 - Attachments and notes
+
+## ✅ Validation
+
+Use the built-in validation script to check your meeting notes for completeness and correctness:
+
+```bash
+# Validate with auto-detected language
+python3 scripts/validate_notes.py path/to/meeting-notes.md
+
+# Specify output language
+python3 scripts/validate_notes.py path/to/meeting-notes.md --lang zh_TW
+
+# Output as JSON (for automation)
+python3 scripts/validate_notes.py path/to/meeting-notes.md --json
+
+# Validate with transcript coverage check
+python3 scripts/validate_notes.py path/to/meeting-notes.md \
+  --transcript path/to/transcript.txt \
+  --glossary references/glossary_zh_TW.md
+```
+
+The validator checks:
+
+| Check | Description |
+|-------|-------------|
+| Metadata completeness | All fields (date, time, location, chair, recorder) are filled in |
+| Date format | Dates follow YYYY-MM-DD format |
+| Participants | At least one attendee is listed |
+| Agenda items | At least one real agenda item exists |
+| Discussion sections | Topics have discussion points and decisions |
+| Action item format | Each action item has owner and due date |
+| Template structure | All required sections are present |
+| Cross-reference | Action item owners appear in participant list |
+| **Transcript coverage** | Key facts from the transcript are recorded in the notes |
+
+### Transcript Coverage Validation
+
+When `--transcript` is provided, the validator extracts **key facts** from the original transcript and checks if they appear in the meeting notes:
+
+| Fact Type | What It Extracts |
+|-----------|------------------|
+| 👤 Person | Names from the glossary found in the transcript |
+| 🔢 Number | Percentages, monetary amounts, quantities |
+| 📅 Date | Dates, deadlines, time references |
+| 🔨 Decision | Sentences containing decision keywords (決定/同意/agreed/approved) |
+| 📌 Action | Sentences with assignment keywords (負責/截止/assigned to) |
+| 📖 Term | Technical and business terms from the glossary |
+
+Coverage thresholds:
+- ≥ 80% → ✅ Pass
+- 50–79% → ⚠️ Warning
+- < 50% → ❌ Error
 
 ## 🔧 Customization
 
